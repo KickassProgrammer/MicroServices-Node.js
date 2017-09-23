@@ -1,0 +1,7 @@
+There are two tiny steps for setting up your microservices, first we need to install micro:
+
+npm install -g micro
+
+And second we need to create a file that will contain our microservices. Let's call it index.js
+
+touch index.js
