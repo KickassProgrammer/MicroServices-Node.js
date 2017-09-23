@@ -1,0 +1,13 @@
+module.exports = function (request, response) {
+  // Your microservice here
+}
+
+const { send } = require('micro')
+module.exports = function (request, response) {
+send(response, 200, 'Hello World! 👋')
+}
+
+$ micro index.js
+Ready! Listening on http://0.0.0.0:3000
+
+Open the Page in Web Browser and What you will see.
